@@ -6,7 +6,36 @@
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <div>Some Text</div>
+    <div class="container-fluid">
+        <div class="col-lg-3">
+            <h1>Current Plater</h1>
+            <div class="current-player-indicator"></div>
+
+            <label>first user name: <span class="player1"></span> <br>
+                <input type="text" class="player1"></label>
+            <br>    
+            <label>second user name: <span class="player2"></span> <br>
+                <input type="text" class="player2"></label>
+            <br> 
+            <button class="btn btn-start-game">Start Game</button>
+            <h1 class="result"></h1>
+        </div>
+        <div class="col-lg-9">
+            <br/><br/>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <br>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <br>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <br>
+        </div>
+    </div>
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/tictactoe.js"></script>
